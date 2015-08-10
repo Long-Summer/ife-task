@@ -1,0 +1,70 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+p.describe {
+    font-size: 12px;
+    color: yellow;
+    background-color: black;
+}
+
+img {
+    border-color: red;
+    border-style: solid;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../font/UbuntuMono-B.ttf');
+    font-weight: bold;
+}
+
+p.test {
+    text-indent: 44px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: left;
+    word-spacing: 10px;
+    white-space: pre-wrap;
+    color: #CBCBCB;
+    line-height: 30px;
+    font: 15px arial, sans-serif;
+    font-family: myFirstFont;
+    /*font-family: "Times New Roman", Georgia, Serif;*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p6 div {
+    background-color: red;
+    display: flex;
+    text-align: center;
+}
+
+.sq1,
+.sq2 {
+    width: 960px;
+    height: 240px;
+    margin: 10px 0;
+}
+
+.sq1 {
+    position: relative;
+    left: 50%;
+    margin-left: -480px;
+}
+
+.sq2 {
+    margin: auto;
+}
+
+.bo {
+    shape-outside: circle();
+    width: 800px;
+    height: 480px;
+    background-color: #CACACA;
+}
