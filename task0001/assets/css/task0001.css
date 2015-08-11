@@ -2,6 +2,75 @@ h1 {
     color: blue;
 }
 
+div.container {
+    background-color: #37d6bd;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+div.container .ele {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 10px, 10px;
+    background-color: blue;
+    margin: 10px;
+}
+
+div.threeA,
+div.threeB {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+div.threeB .l {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #d8efd1;
+}
+
+div.threeB .m {
+    height: 200px;
+    margin-right: 200px;
+    background-color: #ffefd1;
+}
+
+div.threeB .r {
+    float: right;
+    right: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: #1111d1;
+}
+
+div.threeA .left {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #d8efd1;
+}
+
+div.threeA .mr {
+    width: auto;
+    height: 200px;
+    background-color: #ffefd1;
+}
+
+div.threeA .middle {
+    float: left;
+    height: 200px;
+    /*    margin-left: 200px;*/
+    background-color: #ffefd1;
+}
+
+div.threeA .right {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: #22efd1;
+}
+
 div.AB {
     height: 200px;
     background-color: #d8efd1;
@@ -22,6 +91,33 @@ div.B {
     background-color: #d81fd1;
     margin-left: 300px;
     /*margin: 0 20px;*/
+}
+
+div.CD {
+    height: 200px;
+    /*background-color: #d8efd1;*/
+    margin: 10px 0;
+}
+
+div.C {
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: #d8efd1;
+    margin-right: -100%;
+}
+
+div.D {
+    height: 200px;
+    /*background-color: #d81fd1;*/
+    float: left;
+    width: 100%;
+}
+
+div.D .contentinner {
+    margin-left: 300px;
+    background-color: #d81fd1;
+    height: 200px;
 }
 
 h2 {
@@ -84,6 +180,7 @@ p.test {
     margin: auto;
 }
 
+
 /*.bo {
     shape-outside: circle();
     width: 800px;
@@ -92,43 +189,71 @@ p.test {
 }*/
 
 div.bd {
-    margin: 10px;
-    height: 200px;
+    margin: 20px;
+    height: 300px;
     width: auto;
 }
 
-.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b {
-    display:block;overflow:hidden;
+.b1,
+.b2,
+.b3,
+.b4,
+.b1b,
+.b2b,
+.b3b,
+.b4b,
+.b {
+    display: block;
+    overflow: hidden;
 }
 
-.b1,.b2,.b3,.b1b,.b2b,.b3b {
-    height:1px;
+.b1,
+.b2,
+.b3,
+.b1b,
+.b2b,
+.b3b {
+    height: 1px;
 }
 
-.b2,.b3,.b4,.b2b,.b3b,.b4b,.b {
-    border-left:1px solid #999;border-right:1px solid #999;
+.b2,
+.b3,
+.b4,
+.b2b,
+.b3b,
+.b4b,
+.b {
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
 }
 
-.b1,.b1b {
-    margin:0 5px;background:#999;
+.b1,
+.b1b {
+    margin: 0 5px;
+    background: #999;
 }
 
-.b2,.b2b {
-    margin:0 3px;border-width:2px;
+.b2,
+.b2b {
+    margin: 0 3px;
+    border-width: 2px;
 }
 
-.b3,.b3b {
-    margin:0 2px;
+.b3,
+.b3b {
+    margin: 0 2px;
 }
 
-.b4,.b4b {
-    height:2px;margin:0 1px;
+.b4,
+.b4b {
+    height: 2px;
+    margin: 0 1px;
 }
 
 .d1 {
-    background:#F7F8F9;
+    background: #F7F8F9;
 }
 
 .k {
-    height:300px;
+    height: 300px;
 }
